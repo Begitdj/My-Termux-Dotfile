@@ -26,5 +26,5 @@ bash install.sh
 ![Image](/image.jpg)
 ![Image2](/image2.jpg)
 ### Additional info
-#### Some things are carried over to another line, for example how much memory is used.
+##### Some things are carried over to another line, for example how much memory is used.
 use two fingers to decrease or increase the text size
