@@ -11,7 +11,7 @@ echo install lsd
 apt install lsd
 echo install fonts colors extra key and p10k dotfile
 mkdir ~/.termux
-echo "extra-keys = [['/','ls','$','~','UP','exit','ALT'],['ESC','CTRL','ENTER','LEFT','DOWN','RIGHT','F2']]" >> ~/.termux/termux.properties
+echo "\nextra-keys = [['/','ls','$','~','UP','exit','ALT'],['ESC','CTRL','ENTER','LEFT','DOWN','RIGHT','F2']]" >> ~/.termux/termux.properties
 cp ./colors.properties ~/.termux/colors.properties
 cp ./font.ttf ~/.termux/font.ttf
 cp ./.p10k.zsh ~/.p10k.zsh
