@@ -1,5 +1,5 @@
 # My-Termux-Dotfile
-My termux dotfile
+Just my termux dotfile
 ### Install
 First update repository and upgrade package and install git using
 ````
