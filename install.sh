@@ -6,10 +6,12 @@ cp ./zshrc.zsh ~/.zshrc
 echo install lsd
 apt install lsd
 echo install fonts colors extra key and p10k dotfile
-mkdir ~/.termux
 echo "\nextra-keys = [['/','ls','$','~','UP','exit','ALT'],['ESC','CTRL','ENTER','LEFT','DOWN','RIGHT','F2']]" >> ~/.termux/termux.properties
+rm -rf ~/.termux/color.properties
 cp ./colors.properties ~/.termux/colors.properties
+rm -rf ~/.termux/font.ttf
 cp ./font.ttf ~/.termux/font.ttf
+rm -rf ~/.p10k.zsh
 cp ./.p10k.zsh ~/.p10k.zsh
 termux-reload-settings
-echo Install Complete!
+echo Install Complete! Full restart termux to change shell theme
