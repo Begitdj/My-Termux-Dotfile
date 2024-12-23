@@ -1,13 +1,9 @@
 # My-Termux-Dotfile
 My termux dotfile
 ### Install
-First update repository and upgrade package using
+First update repository and upgrade package and install git using
 ````
-apt update && apt upgrade
-````
-##### Install git using
-````
-apt install git -y
+apt update && apt upgrade && apt install git -y
 ````
 ##### clone this repo using 
 ````
