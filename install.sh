@@ -1,8 +1,4 @@
 echo Hello this is install script for my termux dotfile
-echo install zsh and curl and termux-api
-apt install zsh curl termux-api -y
-echo install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 rm -rf ~/.zshrc
