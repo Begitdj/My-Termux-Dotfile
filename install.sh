@@ -17,8 +17,8 @@ cp ./.p10k.zsh ~/.p10k.zsh
 rm -rf ~/.zprofile
 cp ./.zprofile ~/.zprofile
 rm -rf /usr/etc/motd
-cat /usr/etc/motd
+cat > /usr/etc/motd
 rm -rf /usr/etc/profile
-cat /usr/etc/profile
+cat > /usr/etc/profile
 termux-reload-settings
 echo Install Complete! Full restart termux to change shell theme
