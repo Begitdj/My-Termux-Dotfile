@@ -7,13 +7,13 @@ apt install git -y
 ````
 clone this repo using 
 ````
-git clone https://github.com/Begitdj/My-Termux-Cfg.git
+git clone https://github.com/Begitdj/My-Termux-Dotfile.git
 ````
 go in the folder using 
 ````
 cd My-Termux-Cfg
 ````
-start using 
+install using 
 ````
 bash install.sh
 ````
