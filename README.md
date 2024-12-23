@@ -17,6 +17,7 @@ cd My-Termux-Cfg
 ````
 bash installzsh.sh
 ````
+on the questions of change shell type y
 ##### install using 
 ````
 bash install.sh
