@@ -19,3 +19,4 @@ bash install.sh
 ````
 ### Screenshot
 ![Image](/image.jpg)
+![Image2](/image2.jpg)
