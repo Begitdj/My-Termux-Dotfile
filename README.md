@@ -13,6 +13,10 @@ git clone https://github.com/Begitdj/My-Termux-Dotfile.git
 ````
 cd My-Termux-Cfg
 ````
+##### install zsh using 
+````
+bash installzsh.sh
+````
 ##### install using 
 ````
 bash install.sh
