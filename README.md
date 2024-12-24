@@ -25,6 +25,7 @@ bash install.sh
 ### Screenshot
 ![Image](/image.jpg)
 ![Image2](/image2.jpg)
+![Image3](/image3.jpg)
 ### Additional info
 ##### Some things are carried over to another line, for example how much memory is used.
 use two fingers to decrease or increase the text size
