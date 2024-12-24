@@ -5,7 +5,7 @@ rm -rf ~/.zshrc
 cp ./.zshrc ~/.zshrc
 echo install lsd
 apt install lsd
-echo install fonts colors extra key and p10k dotfile and zprofile
+echo install fonts colors extra key and p10k dotfile and zprofile and nano dotfile
 rm -rf ~/.termux/termux.properties
 cp ./termux.properties ~/.termux/termux.properties
 rm -rf ~/.termux/color.properties
@@ -20,5 +20,7 @@ rm -rf /data/data/com.termux/files/usr/etc/motd
 touch /data/data/com.termux/files/usr/etc/motd
 rm -rf /data/data/com.termux/files/usr/etc/profile
 touch /data/data/com.termux/files/usr/etc/profile
+rm -rf ~/.nanorc
+cp ./.nanorc ~/.nanorc
 termux-reload-settings
 echo Install Complete! Full restart termux to change shell theme
